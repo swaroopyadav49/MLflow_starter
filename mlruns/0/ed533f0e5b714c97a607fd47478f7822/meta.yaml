@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Udamy/mlflow_test/mlruns/0/ed533f0e5b714c97a607fd47478f7822/artifacts
+end_time: 1745403150589
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ed533f0e5b714c97a607fd47478f7822
+run_name: dazzling-shrike-168
+run_uuid: ed533f0e5b714c97a607fd47478f7822
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745403148361
+status: 3
+tags: []
+user_id: swaro

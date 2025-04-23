@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Udamy/mlflow_test/mlruns/0/7d56b148a27a48648b5647fbb9edc6b0/artifacts
+end_time: 1745406525370
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7d56b148a27a48648b5647fbb9edc6b0
+run_name: learned-snail-959
+run_uuid: 7d56b148a27a48648b5647fbb9edc6b0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1745406523318
+status: 3
+tags: []
+user_id: swaro
