@@ -81,8 +81,11 @@ if __name__ == "__main__":
         mlflow.log_metric("mae", mae)
 
         
-        predictions = lr.predict(train_x)
-        signature = infer_signature(train_x, predictions)
+       
+        # # For remote server only (Dagshub)
+        remote_server_uri = "https://dagshub.com/swaroopyadav49/MLflow_starter.mlflow"
+        mlflow.set_tracking_uri(remote_server_uri)
+
 
 
 
@@ -103,6 +106,6 @@ if __name__ == "__main__":
             # please refer to the doc for more information:
             # https://mlflow.org/docs/latest/model-registry.html#api-workflow
             mlflow.sklearn.log_model(
-                lr, "model", registered_model_name="ElasticnetWineModel", signature=signature,conda_env=conda_env)
+                lr, "model", registered_model_name="ElasticnetWineModel", conda_env=conda_env)
         else:
-            mlflow.sklearn.log_model(lr, "model", signature=signature)
+            mlflow.sklearn.log_model(lr, "model")
