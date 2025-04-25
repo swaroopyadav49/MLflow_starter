@@ -83,7 +83,7 @@ if __name__ == "__main__":
         
        
         # # For remote server only (Dagshub)
-        remote_server_uri = "https://dagshub.com/swaroopyadav49/MLflow_starter.mlflow"
+        remote_server_uri = http://ec2-34-227-148-52.compute-1.amazonaws.com:5000
         mlflow.set_tracking_uri(remote_server_uri)
 
 
